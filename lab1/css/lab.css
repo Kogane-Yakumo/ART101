@@ -1,0 +1,12 @@
+h1 {
+    color:blueviolet;
+    font-size: 150%;
+}
+
+p {
+    text-indent: 24px;
+}
+
+#content {
+    border: dotted 3px #00aaff;
+}
