@@ -1,0 +1,9 @@
+.car {
+    float:right;
+    margin: 10px;
+    max-width: 40%;
+}
+
+.output {
+  background-color:rgb(78, 187, 78)
+}
