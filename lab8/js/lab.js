@@ -24,3 +24,7 @@ console.log("2X - 1 of my array: ", testArray.map(calculation));
 console.log("numbers in my array modulus seven: ", testArray.map(function(x){
     return x % 7;
 }));
+
+//reveal output
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = "2X - 1 of my array: [7, 151, 17, 45, 117, 191, 61]<br>numbers in my array modulus seven: [4, 6, 2, 2, 3, 5, 3 ]";
