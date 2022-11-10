@@ -1,4 +1,6 @@
-.special {
-    background-color:rgb(40, 40, 40);
-    color: rgb(216, 230, 195);
+#output.column {
+    column-width: 200px;
+}
+#output.column p {
+    text-indent: 0px; 
 }
