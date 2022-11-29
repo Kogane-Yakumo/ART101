@@ -12,8 +12,9 @@ $("#activate").click(function () {
         success: function(data) {
             $("#output").html("")
             var comicObj = data;
-            $("#output").append("<p> " + data + ".");
-            console.log(JSON.stringify(data, null, 2));
+            $("#output").append("<h1> " + comicObj.title + ".");
+            $("#output").append("<img src=" + comicObj.img + " title=" + comicObj.alt + ">");
+            console.log(JSON.stringify(comicObj, null, 2));
         },
         error: function (jqXHR, textStatus, errorThrown) { 
             $("#output").html("")
